@@ -43,7 +43,10 @@ header div {
 section {
     margin-bottom: 50px;
 }
-/* .mission {
+.mission {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-image: url("../images/img-bedford-bizarre.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -52,15 +55,13 @@ section {
     width: 1200px;
     height: 700px;
     margin: auto;
-} */
+}
 .mission, .featured, .locations, .contact {
     text-align: center;
-    width: 99%;
 }
 .mission article {
-    position: absolute;
+    position: relative;
     top: 250px;
-    left: 0px;
     width: 100%;
     background-color: black;
     text-align: center;
@@ -80,10 +81,22 @@ section {
 .tea-img h3 {
     margin-top: 10px;
 }
+.locations {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url("../images/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
 .locations article {
-    position: absolute;
-    top: 1550px;
-    left: 0px;
+    position: relative;
+    top: 40px;
     width: 100%;
     text-align: center;
 }
